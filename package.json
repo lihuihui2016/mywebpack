@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node webpack/dev.server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node webpack/webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "open-browser-webpack-plugin": "0.0.5"
+  },
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
